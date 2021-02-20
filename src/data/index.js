@@ -16,7 +16,7 @@ import img7_1 from "../img/ho3rAO-A.jpeg";
 import img8 from "../img/YOe9lUxQ.jpeg";
 import img8_1 from "../img/ECo4OY_w.jpeg";
 
-export default [
+const datas = [
     {
         photo: { img1 },
         user_icon: { img1_1 },
@@ -79,3 +79,4 @@ export default [
         playlist_items: "16",
     },
 ];
+export default datas;

@@ -1,8 +1,11 @@
 import React from "react";
-import data from "./data";
+//Import Pages
+import Challenges from "./pages/Challenges";
+//Import Data
+import datas from "./data";
 
 function App() {
-    return <div>{console.log(data)}</div>;
+    return <Challenges datas={datas} />;
 }
 
 export default App;
