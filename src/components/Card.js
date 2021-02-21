@@ -19,11 +19,26 @@ const Card = ({
 }) => {
     return (
         <StyledCard>
-            <img src={Object.values(photo)} alt="" />
+            {playlist_items ? (
+                <div className="workouts-wrapper">
+                    <img
+                        className="cardImage"
+                        src={Object.values(photo)}
+                        alt=""
+                    />
+                    <div className="item-wrapper">
+                        <div className="items">{playlist_items}</div>
+                        <div className="label">Workouts</div>
+                        <img className="open-playlist" src={playlistIcon} />
+                    </div>
+                </div>
+            ) : (
+                <img className="cardImage" src={Object.values(photo)} alt="" />
+            )}
             <div className="info-wrapper">
                 <div className="title-wrapper">
-                    <img src={Object.values(user_icon)} alt="User icon" />
                     <div>{title}</div>
+                    <img src={Object.values(user_icon)} alt="User icon" />
                 </div>
                 <div className="timer-wrapper">
                     <img src={timerIcon} alt="" />
@@ -40,6 +55,20 @@ const Card = ({
     );
 };
 
-const StyledCard = styled(motion.div)``;
+const StyledCard = styled(motion.div)`
+    box-shadow: 0px 1px 2px rgba(46, 49, 52, 0.4);
+    min-height: 22vw;
+    border-radius: 0.5vw;
+    overflow: hidden;
+    .cardImage {
+        width: 100%;
+        height: 11vw;
+        object-fit: cover;
+    }
+
+    .info-wrapper {
+        margin: 1vw;
+    }
+`;
 
 export default Card;

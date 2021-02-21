@@ -5,19 +5,24 @@ import { createMemoryHistory } from "history";
 import Challenges from "./pages/Challenges";
 //Import Data
 import datas from "./data";
+//Import Global Styles
+import GlobalStyles from "./components/GlobalStyles";
 
 function App() {
     const history = createMemoryHistory();
     return (
-        <Router history={history}>
-            <Switch>
-                <Route
-                    exact
-                    path="/"
-                    render={() => <Challenges datas={datas} />}
-                ></Route>
-            </Switch>
-        </Router>
+        <>
+            <GlobalStyles />
+            <Router history={history}>
+                <Switch>
+                    <Route
+                        exact
+                        path="/"
+                        render={() => <Challenges datas={datas} />}
+                    ></Route>
+                </Switch>
+            </Router>
+        </>
     );
 }
 

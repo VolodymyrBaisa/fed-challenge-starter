@@ -1,20 +1,20 @@
 //Images
-import img1 from "../img/IA1-_tqg.jpeg";
-import img1_1 from "../img/L0Siwk6g.jpeg";
-import img2 from "../img/mcT_LBOw.jpeg";
-import img2_1 from "../img/4q6-vRzQ.jpeg";
-import img3 from "../img/NmYPRS9w.jpeg";
-import img3_1 from "../img/Q3hU235w.jpeg";
-import img4 from "../img/HkxHyg8w.jpeg";
-import img4_1 from "../img/fymkDQRw.jpeg";
-import img5 from "../img/NP4EtBjA.jpeg";
-import img5_1 from "../img/xQ-EJCzw.jpeg";
-import img6 from "../img/PikM-vOQ.jpeg";
-import img6_1 from "../img/XFbCMs6Q.jpeg";
-import img7 from "../img/k49FQ-2w.jpeg";
-import img7_1 from "../img/ho3rAO-A.jpeg";
-import img8 from "../img/YOe9lUxQ.jpeg";
-import img8_1 from "../img/ECo4OY_w.jpeg";
+import img1 from "../img/lake-inniscarra-thumb.jpg";
+import img1_1 from "../img/lake-inniscarra-trainer.jpg";
+import img2 from "../img/performance-series-thumb.jpg";
+import img2_1 from "../img/performance-series-trainer.jpg";
+import img3 from "../img/slow-pulls-thumb.jpg";
+import img3_1 from "../img/slow-pulls-trainer.jpg";
+import img4 from "../img/20-minutes-to-toned-thumb.jpg";
+import img4_1 from "../img/20-minutes-to-toned-trainer.jpg";
+import img5 from "../img/kafue-river-thumb.jpg";
+import img5_1 from "../img/charles-race-trainer.jpg";
+import img6 from "../img/full-body-hiit-thumb.jpg";
+import img6_1 from "../img/full-body-hiit-trainer.jpg";
+import img7 from "../img/kafue-river-thumb.jpg";
+import img7_1 from "../img/kafue-river-trainer.jpg";
+import img8 from "../img/shred-and-burn-thumb.jpg";
+import img8_1 from "../img/shred-and-burn-trainer.jpg";
 
 const datas = [
     {
