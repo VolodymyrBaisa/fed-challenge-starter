@@ -29,13 +29,25 @@ const StyledChallenges = styled(motion.div)`
     align-items: center;
     min-height: 100vh;
     .container {
-        margin: 0 9vw;
+        margin: 4.8vw 9vw;
         display: grid;
         justify-content: center;
         align-items: start;
         grid-template-columns: repeat(4, 1fr);
         column-gap: 2.4rem;
         row-gap: 2.4rem;
+
+        @media (max-width: 1024px) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        @media (max-width: 800px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @media (max-width: 600px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
     }
 `;
 

@@ -72,7 +72,7 @@ const Card = ({
 
 const StyledCard = styled(motion.div)`
     box-shadow: 0px 1px 2px rgba(46, 49, 52, 0.4);
-    min-height: 18.5vw;
+    min-height: 28rem;
     border-radius: 0.5vw;
     overflow: hidden;
     transition: box-shadow 0.2s ease-in-out;
@@ -83,13 +83,13 @@ const StyledCard = styled(motion.div)`
 
     .cardImage {
         width: 100%;
-        height: 11vw;
+        height: 16.4rem;
         object-fit: cover;
         background: #000c28;
     }
     .workouts-wrapper {
         position: relative;
-        height: 11vw;
+        height: 16.4rem;
         .playlist-wrapper {
             position: absolute;
             top: 0;
