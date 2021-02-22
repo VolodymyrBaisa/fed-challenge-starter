@@ -22,7 +22,7 @@ const datas = [
         user_icon: { img1_1 },
         title: "Lake Inniscarra, Ireland—Pyramid",
         timer: "30:53",
-        distance: "6.248 M",
+        distance: "6,248 M",
         playlist_items: "",
         details:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
@@ -41,7 +41,7 @@ const datas = [
         user_icon: { img3_1 },
         title: "Slow Pulls and Fast Intervals",
         timer: "44:13",
-        distance: "9.948 M",
+        distance: "9,948 M",
         details: "",
     },
     {
@@ -58,7 +58,7 @@ const datas = [
         user_icon: { img5_1 },
         title: "Charles Race, Boston, Massachusetts",
         timer: "36:22",
-        distance: "8.648 M",
+        distance: "8,648 M",
         details: "",
     },
     {
@@ -75,7 +75,7 @@ const datas = [
         user_icon: { img7_1 },
         title: "Kafue River, Zambia—Power Stroke Pyramid",
         timer: "22:22",
-        distance: "4.660",
+        distance: "4,660",
         details: "",
     },
     {

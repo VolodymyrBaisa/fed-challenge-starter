@@ -24,13 +24,13 @@ const StyledChallenges = styled(motion.div)`
     align-items: center;
     height: 100vh;
     .container {
-        margin: 0 8vw;
+        margin: 0 9vw;
         display: grid;
         justify-content: center;
         align-items: start;
         grid-template-columns: repeat(4, 1fr);
-        column-gap: 1.2vw;
-        row-gap: 1.2vw;
+        column-gap: 2.4rem;
+        row-gap: 2.4rem;
     }
 `;
 

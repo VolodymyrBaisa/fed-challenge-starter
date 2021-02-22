@@ -8,11 +8,11 @@ const GlobalStyles = createGlobalStyle`
     //outline: 1px solid #66b8da !important;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
 html {
     font-size: 0.65vw;
-    font-family: "Sarabun", sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 `;
 
