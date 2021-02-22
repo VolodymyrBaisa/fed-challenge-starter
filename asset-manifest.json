@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.js": "/static/js/main.45d8c015.chunk.js",
-    "main.js.map": "/static/js/main.45d8c015.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.418d230e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.418d230e.js.map",
-    "static/js/2.c278b884.chunk.js": "/static/js/2.c278b884.chunk.js",
-    "static/js/2.c278b884.chunk.js.map": "/static/js/2.c278b884.chunk.js.map",
-    "index.html": "/index.html",
-    "static/js/2.c278b884.chunk.js.LICENSE.txt": "/static/js/2.c278b884.chunk.js.LICENSE.txt",
-    "static/media/20-minutes-to-toned-thumb.0591edaf.jpg": "/static/media/20-minutes-to-toned-thumb.0591edaf.jpg",
-    "static/media/full-body-hiit-thumb.e3c62b73.jpg": "/static/media/full-body-hiit-thumb.e3c62b73.jpg",
-    "static/media/icn_distance_line.65581f24.svg": "/static/media/icn_distance_line.65581f24.svg",
-    "static/media/icn_playlist.dd9fb7bd.svg": "/static/media/icn_playlist.dd9fb7bd.svg",
-    "static/media/icn_timer_line.b434dbdf.svg": "/static/media/icn_timer_line.b434dbdf.svg",
-    "static/media/kafue-river-thumb.56d33821.jpg": "/static/media/kafue-river-thumb.56d33821.jpg",
-    "static/media/lake-inniscarra-thumb.68829e20.jpg": "/static/media/lake-inniscarra-thumb.68829e20.jpg",
-    "static/media/performance-series-thumb.b582b553.jpg": "/static/media/performance-series-thumb.b582b553.jpg",
-    "static/media/shred-and-burn-thumb.9268893a.jpg": "/static/media/shred-and-burn-thumb.9268893a.jpg",
-    "static/media/slow-pulls-thumb.b4ccbb35.jpg": "/static/media/slow-pulls-thumb.b4ccbb35.jpg"
+    "main.js": "/fed-challenge-starter/static/js/main.1a6851b6.chunk.js",
+    "main.js.map": "/fed-challenge-starter/static/js/main.1a6851b6.chunk.js.map",
+    "runtime-main.js": "/fed-challenge-starter/static/js/runtime-main.32c3d002.js",
+    "runtime-main.js.map": "/fed-challenge-starter/static/js/runtime-main.32c3d002.js.map",
+    "static/js/2.4cc412ea.chunk.js": "/fed-challenge-starter/static/js/2.4cc412ea.chunk.js",
+    "static/js/2.4cc412ea.chunk.js.map": "/fed-challenge-starter/static/js/2.4cc412ea.chunk.js.map",
+    "index.html": "/fed-challenge-starter/index.html",
+    "static/js/2.4cc412ea.chunk.js.LICENSE.txt": "/fed-challenge-starter/static/js/2.4cc412ea.chunk.js.LICENSE.txt",
+    "static/media/20-minutes-to-toned-thumb.0591edaf.jpg": "/fed-challenge-starter/static/media/20-minutes-to-toned-thumb.0591edaf.jpg",
+    "static/media/full-body-hiit-thumb.e3c62b73.jpg": "/fed-challenge-starter/static/media/full-body-hiit-thumb.e3c62b73.jpg",
+    "static/media/icn_distance_line.65581f24.svg": "/fed-challenge-starter/static/media/icn_distance_line.65581f24.svg",
+    "static/media/icn_playlist.dd9fb7bd.svg": "/fed-challenge-starter/static/media/icn_playlist.dd9fb7bd.svg",
+    "static/media/icn_timer_line.b434dbdf.svg": "/fed-challenge-starter/static/media/icn_timer_line.b434dbdf.svg",
+    "static/media/kafue-river-thumb.56d33821.jpg": "/fed-challenge-starter/static/media/kafue-river-thumb.56d33821.jpg",
+    "static/media/lake-inniscarra-thumb.68829e20.jpg": "/fed-challenge-starter/static/media/lake-inniscarra-thumb.68829e20.jpg",
+    "static/media/performance-series-thumb.b582b553.jpg": "/fed-challenge-starter/static/media/performance-series-thumb.b582b553.jpg",
+    "static/media/shred-and-burn-thumb.9268893a.jpg": "/fed-challenge-starter/static/media/shred-and-burn-thumb.9268893a.jpg",
+    "static/media/slow-pulls-thumb.b4ccbb35.jpg": "/fed-challenge-starter/static/media/slow-pulls-thumb.b4ccbb35.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.418d230e.js",
-    "static/js/2.c278b884.chunk.js",
-    "static/js/main.45d8c015.chunk.js"
+    "static/js/runtime-main.32c3d002.js",
+    "static/js/2.4cc412ea.chunk.js",
+    "static/js/main.1a6851b6.chunk.js"
   ]
 }
