@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Router, Switch, Route } from "react-router-dom";
 import { createMemoryHistory } from "history";
 //Import Pages
 import Challenges from "./pages/Challenges";
