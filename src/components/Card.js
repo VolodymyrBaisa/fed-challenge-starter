@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 //Styling and Animation
 import styled from "styled-components";
 import { motion } from "framer-motion";
+import { cardAnimation } from "../components/Animation";
 //Icons
 import timerIcon from "../img/svg/icn_timer_line.svg";
 import distanceIcon from "../img/svg/icn_distance_line.svg";
@@ -18,7 +19,7 @@ const Card = ({
     details,
 }) => {
     return (
-        <StyledCard>
+        <StyledCard variants={cardAnimation}>
             {playlist_items ? (
                 <div className="workouts-wrapper">
                     <img
@@ -29,7 +30,13 @@ const Card = ({
                     <div className="playlist-wrapper">
                         <div className="items">{playlist_items}</div>
                         <div className="label">Workouts</div>
-                        <img className="open-playlist" src={playlistIcon} />
+                        <Link to="/playlist">
+                            <img
+                                className="open-playlist"
+                                src={playlistIcon}
+                                alt="Playlist icon"
+                            />
+                        </Link>
                     </div>
                 </div>
             ) : (
@@ -68,6 +75,11 @@ const StyledCard = styled(motion.div)`
     min-height: 18.5vw;
     border-radius: 0.5vw;
     overflow: hidden;
+    transition: box-shadow 0.2s ease-in-out;
+
+    &:hover {
+        box-shadow: 5px 5px 15px rgba(46, 49, 52, 0.4);
+    }
 
     .cardImage {
         width: 100%;
@@ -128,8 +140,8 @@ const StyledCard = styled(motion.div)`
             }
 
             img {
-                width: 2vw;
-                height: 2vw;
+                width: 2.8rem;
+                height: 2.8rem;
                 object-fit: cover;
                 background: #bd10e0;
                 border-radius: 0.3vw;

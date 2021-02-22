@@ -14,6 +14,24 @@ html {
     font-size: 0.65vw;
     font-family: "Open Sans", sans-serif;
 }
+
+@media (max-width: 1024px) {
+        html {
+            font-size: 0.85vw;
+        }
+    }
+
+    @media (max-width: 800px) {
+        html {
+            font-size: 1.5vw;
+        }
+    }
+
+    @media (max-width: 600px) {
+        html {
+            font-size: 2.5vw;
+        }
+    }
 `;
 
 export default GlobalStyles;

@@ -2,12 +2,17 @@ import React from "react";
 //Styling and Animation
 import styled from "styled-components";
 import { motion } from "framer-motion";
+import { containerAnimation } from "../components/Animation";
 //Components
 import Card from "../components/Card";
 
 const Challenges = (datas) => {
     return (
-        <StyledChallenges>
+        <StyledChallenges
+            variants={containerAnimation}
+            initial={["hidden", "rest"]}
+            animate="visible"
+        >
             <div className="container">
                 {datas &&
                     datas.datas.map((item, index) => (
@@ -22,7 +27,7 @@ const StyledChallenges = styled(motion.div)`
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     .container {
         margin: 0 9vw;
         display: grid;
