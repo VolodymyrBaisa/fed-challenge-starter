@@ -182,7 +182,7 @@ const StyledCard = styled(motion.div)`
             font-weight: bold;
             font-size: 1.4rem;
             line-height: 1.6rem;
-            transition: all 0.3s ease-in-out;
+            transition: color 0.3s ease-in-out;
 
             &:hover {
                 color: #2e3134;
