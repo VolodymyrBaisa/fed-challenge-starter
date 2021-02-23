@@ -121,6 +121,10 @@ const StyledCard = styled(motion.div)`
             .open-playlist {
                 width: 2.4rem;
                 height: 2.4rem;
+                transition: transform 0.2s ease;
+                &:hover {
+                    transform: scale(1.1);
+                }
             }
         }
     }
@@ -170,6 +174,7 @@ const StyledCard = styled(motion.div)`
             }
         }
         .details {
+            position: relative;
             text-decoration: none;
             text-transform: uppercase;
             color: #0069d2;
@@ -177,6 +182,11 @@ const StyledCard = styled(motion.div)`
             font-weight: bold;
             font-size: 1.4rem;
             line-height: 1.6rem;
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+                color: #2e3134;
+            }
         }
     }
 `;
